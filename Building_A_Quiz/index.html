@@ -23,6 +23,7 @@
         </ul>
       </nav>
     </header>
+
     <main>
       <form
         action="https://freecodecamp.org/practice-project/accessibility-quiz"
@@ -55,18 +56,36 @@
             <input type="date" name="birth-date" id="birth-date" />
           </div>
         </section>
+
         <section role="region" aria-labelledby="html-questions">
           <h2 id="html-questions">HTML Questions</h2>
           <div class="question-block">
             <p>1</p>
             <fieldset class="question" name="html-question-one">
-              <legend>Question 1</legend>
+              <legend>
+                The legend element represents a caption for the content of its
+                parent fieldset element
+              </legend>
               <ul class="answers-list">
                 <li>
-                  <label for=""><input type="radio" name="" id="" /></label>
+                  <label for="q1-a1"
+                    ><input
+                      type="radio"
+                      name="q1"
+                      id="q1-a1"
+                      value="True"
+                    />True</label
+                  >
                 </li>
                 <li>
-                  <label for=""><input type="radio" name="" id="" /></label>
+                  <label for="q1-a2"
+                    ><input
+                      type="radio"
+                      name="q1"
+                      id="q1-a2"
+                      value="False"
+                    />False</label
+                  >
                 </li>
               </ul>
             </fieldset>
@@ -74,22 +93,75 @@
           <div class="question-block">
             <p>2</p>
             <fieldset class="question" name="html-question-two">
-              <legend>Question 2</legend>
+              <legend>
+                A label element nesting an input element is required to have a
+                for attribute with the same value as the input's id
+              </legend>
               <ul class="answers-list">
                 <li>
-                  <label for=""><input type="radio" name="" id="" /></label>
+                  <label for="q2-a1"
+                    ><input
+                      type="radio"
+                      name="q2"
+                      id="q2-a1"
+                      value="True"
+                    />True</label
+                  >
                 </li>
                 <li>
-                  <label for=""><input type="radio" name="" id="" /></label>
+                  <label for="q2-a2"
+                    ><input
+                      type="radio"
+                      name="q2"
+                      id="q2-a2"
+                      value="False"
+                    />False</label
+                  >
                 </li>
               </ul>
             </fieldset>
           </div>
         </section>
+
         <section role="region" aria-labelledby="css-questions">
           <h2 id="css-questions">CSS Questions</h2>
+          <div class="formrow">
+            <div class="question-block">
+              <label for="select"
+                >Can the CSS margin property accept negative values?</label
+              >
+            </div>
+            <div class="answer">
+              <select name="css1" id="select" required>
+                <option value="">Select an option</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+              </select>
+            </div>
+            <div class="question-block">
+              <label for="textarea">Do you have any questions:</label>
+            </div>
+            <div class="answer">
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+                placeholder="Type in yours"
+              ></textarea>
+            </div>
+          </div>
         </section>
+        <button type="submit">Send</button>
       </form>
     </main>
+    <footer>
+      <address>
+        <a href="https://freecodecamp.org">freeCodeCamp</a><br />
+        San Francisco<br />
+        California<br />
+        USA
+      </address>
+    </footer>
   </body>
 </html>
