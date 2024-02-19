@@ -22,6 +22,7 @@ body {
   height: 300px;
   max-width: 350px;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .gallery {
@@ -33,4 +34,11 @@ body {
   padding: 20px 10px;
   max-width: 1400px;
   margin: 0 auto;
+  gap: 16px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+  height: 300px;
 }
