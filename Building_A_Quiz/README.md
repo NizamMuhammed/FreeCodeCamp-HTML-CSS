@@ -15,3 +15,5 @@
 13. footer and address elements
 14. fix element to top of viewport //here, header is fixed
 15. list-style property //to manage ol/ul stytle
+16. @media at-rule
+17. accesskey //attribute accepts a space-separated list of access keys
