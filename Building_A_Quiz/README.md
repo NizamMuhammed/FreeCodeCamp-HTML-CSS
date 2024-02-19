@@ -13,3 +13,5 @@
 11. ::before pseudo //inserts something before the content of each selected element(s).
 12. content property //set content of an element
 13. footer and address elements
+14. fix element to top of viewport //here, header is fixed
+15. list-style property //to manage ol/ul stytle
