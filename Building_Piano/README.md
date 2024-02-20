@@ -7,3 +7,5 @@
 5. top, left //position item relating to immediate ancestor
 
 ## Responsive design with screen sizes 768px, 769px - 1199px(small laptops), and above that.
+
+![Img](./Piano.jpeg)

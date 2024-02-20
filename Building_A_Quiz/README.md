@@ -18,5 +18,4 @@
 16. @media at-rule
 17. accesskey //attribute accepts a space-separated list of access keys
 
-![Alt](./Mohammed_Nizam.jpg)
-![Img](./Mohammed_Nizam.jpg)
+![Img](./Quiz_App.jpeg)

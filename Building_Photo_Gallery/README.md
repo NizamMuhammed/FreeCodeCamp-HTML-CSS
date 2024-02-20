@@ -10,3 +10,5 @@
 8. align-items
 9. gap
 10. ::after //Add something after the last item of the element
+
+![Img](./Photo_Gallery.jpeg)
