@@ -11,3 +11,4 @@
 9. z-index //set position in front or back of others
 10. element[] //target specific items
 11. !important //to avoid overwriting the property
+12. :nth-of-type() //target n-th itemof that type
