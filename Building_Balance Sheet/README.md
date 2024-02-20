@@ -12,3 +12,4 @@
 10. element[] //target specific items
 11. !important //to avoid overwriting the property
 12. :nth-of-type() //target n-th itemof that type
+13. vertical-align //align according to vertical axis
