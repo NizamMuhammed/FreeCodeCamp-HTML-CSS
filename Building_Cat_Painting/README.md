@@ -15,3 +15,4 @@
 2. ## border-top-left-radius, border-top-right-radius
 3. ## transform //translate(), rotate(), scale(), skew(), and matrix()
 4. ## z-index
+5. ## create triangle using css
