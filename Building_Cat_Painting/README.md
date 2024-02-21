@@ -12,4 +12,6 @@
 
    **sticky**: positioning is a hybrid of relative and fixed positioning. It allows an element to stick to a specific position within its containing element or viewport, based on the scroll position.
 
-2. ##
+2. ## border-top-left-radius, border-top-right-radius
+3. ## transform //translate(), rotate(), scale(), skew(), and matrix()
+4. ## z-index
