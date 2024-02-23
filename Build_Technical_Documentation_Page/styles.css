@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-height: 80px;
+  min-height: 80px;
 }
 
 .topic-header {
@@ -84,6 +84,7 @@ code {
   }
   #navbar {
     justify-content: space-evenly;
+    max-height: 50px;
   }
 
   .links {
