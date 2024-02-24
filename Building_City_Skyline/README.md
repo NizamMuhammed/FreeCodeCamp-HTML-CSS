@@ -6,3 +6,5 @@
    variables are often declared in the :root selector. This is the highest level selector in CSS; putting your variables there will make them usable everywhere
 4. repeating-linear-gradient //make the colors of your gradient repeat until it gets to the bottom
 5. CSS trick to make an element into a triangle using borders
+6. can add multiple gradients to an element by separating them with a comma (,)
+7. Create a triangle & trapezoid using border tricks
