@@ -8,3 +8,5 @@
 5. CSS trick to make an element into a triangle using borders
 6. can add multiple gradients to an element by separating them with a comma (,)
 7. Create a triangle & trapezoid using border tricks
+
+## The sky changes from day to night when the screen size changes from 1000px.
