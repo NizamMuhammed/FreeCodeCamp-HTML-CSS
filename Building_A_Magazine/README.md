@@ -21,3 +21,5 @@
 18. list-style-type //property specifies the type of list item marker, the bullet point.
 19. gap //property is a shorthand way to set the value of column-gap and row-gap at the same time
 20. place-items //property can be used to set the align-items and justify-items values at the same time
+
+![Img](./Magazine.jpeg)
