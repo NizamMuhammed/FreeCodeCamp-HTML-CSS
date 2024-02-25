@@ -11,10 +11,10 @@
 
 ## The sky changes from day to night when the screen size changes from 1000px.
 
-[!Img](./Day.jpeg)
+![Img](./Day.jpeg)
 
 _Screen Size above 1000px_
 
-[!Img](./Night.jpg)
+![Img](./Night.jpg)
 
 _Screen Size below 1000px_
