@@ -1,0 +1,169 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Baskervville", serif;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 15px;
+  border-bottom: 5px solid lightgray;
+  position: fixed;
+  top: 0;
+  background-color: #eee;
+}
+
+header img {
+  max-width: 20%;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-bar a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: inherit;
+  font-family: sans-serif;
+  padding: 0 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.subscription {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+form input {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+form #submit {
+  background: linear-gradient(90deg, yellow 30%, white);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  font-weight: 600;
+  border: none;
+}
+
+#features {
+  margin: 20px 0;
+}
+
+#features ul {
+  display: flex;
+  font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#features > ul > li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid black;
+  width: 350px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+#working {
+  margin: 50px auto;
+}
+
+iframe {
+  width: 600px;
+}
+
+#pricing {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+  overflow: hidden;
+}
+
+#pricing div {
+  width: 200px;
+  border: 2px solid grey;
+  padding: 20px 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#pricing p {
+  font-family: "Raleway";
+  font-size: 2rem;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+#pricing span {
+  font-size: 4rem;
+  padding: 20px;
+}
+
+footer {
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+footer p {
+  padding: 10px 0;
+  font-family: serif;
+}
+
+@media (max-width: 768px) {
+  #nav-bar a {
+    font-size: 1.5rem;
+  }
+
+  #features ul {
+    flex-direction: column;
+  }
+
+  #features > ul > li {
+    list-style: none;
+    padding: 20px;
+    border: 1px solid black;
+    width: 350px;
+    text-align: center;
+    margin: 10px 20px;
+  }
+}

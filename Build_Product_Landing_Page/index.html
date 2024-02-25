@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Product</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="product-landing-page-logo"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#working" class="nav-link">How it works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="subscription">
+        <h3 class="subscription-text">Subscribe to our Newsletter</h3>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="Enter your email"
+          />
+          <input type="submit" id="submit" value="Get Started" />
+        </form>
+      </section>
+
+      <section id="features">
+        <ul>
+          <li>Premium Materials</li>
+          <li>Fast Shipping</li>
+          <li>Quality Assurance</li>
+        </ul>
+      </section>
+
+      <section id="working">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0"
+          allowfullscreen=""
+        ></iframe>
+      </section>
+
+      <section id="pricing">
+        <div class="basic">
+          <p>Basic</p>
+          <span>$600</span>
+        </div>
+        <div class="plus">
+          <p>Plus</p>
+          <span>$900</span>
+        </div>
+        <div class="premium">
+          <p>Premium</p>
+          <span>$1200</span>
+        </div>
+      </section>
+    </main>
+
+    <footer><p>Copyright 2024</p></footer>
+  </body>
+</html>
